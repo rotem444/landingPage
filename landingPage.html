@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rotem Saraf Landing Page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./landingPage.css" />
+  </head>
+  <body class="bg-secondary">
+    <header class="bg-info">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, soluta.
+      Nisi tenetur debitis in dolore, dolores ad aspernatur assumenda quasi
+      recusandae, voluptas aliquid rem. Expedita commodi quas eveniet
+      repudiandae quisquam.
+    </header>
+
+    <main
+      class="d-flex flex-column flex-md-row justify-content-center text-center"
+    >
+      <div class="justify-content-center">
+        <h1 class="m-0">ROTEMWEB</h1>
+        <img class="container mt-0 mb-0 w-75" src="image/myImg2.png" />
+        <p class="w-50 container">
+          hello, my name is rotem saraf, i'm a full stack web developer, if you
+          want to contact whit me Leave details
+        </p>
+      </div>
+
+      <form class="container" method="POST" action="./landingPage.php">
+        <fieldset>
+          <legend>Contact Whit Me</legend>
+          <div class="form-group">
+            <label for="firstName"></label
+            ><input
+              minlength="2"
+              maxlength="15"
+              required
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="First Name"
+              class="form-control"
+            />
+            <div class="form-text text-muted">
+              <output for="firstName" class="text-danger"></output>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="lastName"></label
+            ><input
+              minlength="2"
+              maxlength="15"
+              required
+              type="text"
+              name="lastName"
+              id="lastName"
+              placeholder="Last Name"
+              class="form-control"
+            />
+
+            <div class="form-text text-muted">
+              <output for="lastName" class="text-danger"></output>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="d-flex flex-row align-items-center">
+              <label name="prefix"></label
+              ><select name="prefix" id="prefix" class="form-control w-25">
+                <option value="050">050</option>
+                <option value="‎051">‎051</option>
+                <option value="‎052">‎052</option>
+                <option value="‎053">‎053</option>
+                <option value="‎054">‎054</option>
+                <option value="‎055">‎055</option>
+                <option value="‎056">‎056</option>
+                <option value="‎057">‎057</option>
+                <option value="‎058">‎058</option>
+                <option value="‎059">‎059</option>
+              </select>
+              <div class="font-weight-bold h1 align-middle mr-1 ml-1">-</div>
+              <label for="phone"></label
+              ><input
+                pattern="\d{7}"
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="Phone Namber"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="form-text text-muted">
+              <output for="phone" class="text-danger"></output>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email"></label
+            ><input
+              type="email"
+              name="email"
+              id="lastName"
+              placeholder="Email"
+              class="form-control"
+              required
+            />
+            <div class="form-text text-muted">
+              <output for="email" class="text-danger"></output>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message"></label>
+            <textarea
+              minlength="2"
+              maxlength="15"
+              required
+              class="form-control mt-2"
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+            <div class="form-text text-muted">
+              <output for="email" class="text-danger"></output>
+            </div>
+          </div>
+          <button class="btn btn-info m-2">SUBNIT</button>
+          <div class="form-text text-muted">
+            <output id="response"></output>
+          </div>
+        </fieldset>
+      </form>
+    </main>
+    <footer class="bg-secondary">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure praesentium
+      quos necessitatibus veritatis! Ducimus itaque officia totam deleniti, ipsa
+      eaque, exercitationem molestiae ab recusandae nihil minus voluptates,
+      magni maiores tempore!
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
+    <script src="landingPage.js"></script>
+  </body>
+</html>
